@@ -1,0 +1,17 @@
+name: h5coro
+channels:
+  - conda-forge
+dependencies:
+  - cmake
+  - cxx-compiler
+  - gdal
+  - git
+  - libcurl
+  - lua
+  - make
+  - openssl
+  - pybind11
+  - rapidjson
+  - r-uuid 
+  - vim
+  - Zlib 
