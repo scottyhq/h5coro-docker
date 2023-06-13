@@ -7,9 +7,10 @@ dependencies:
   - gdal
   - git
   - libcurl
-  - lua
+  - lua=5.3
   - make
   - openssl
+  - proj
   - pybind11
   - rapidjson
   - r-uuid 
