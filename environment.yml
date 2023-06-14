@@ -14,5 +14,6 @@ dependencies:
   - pybind11
   - rapidjson
   - r-uuid 
+  - unzip
   - vim
   - Zlib 

@@ -17,8 +17,9 @@ eot
 ARG MAMBA_DOCKERFILE_ACTIVATE=1  # (otherwise python will not be found)
 
 RUN <<eot
-    git clone https://github.com/ICESat2-SlideRule/sliderule.git
-    cd sliderule/targets/binding-python
+    curl -LO https://github.com/ICESat2-SlideRule/sliderule/archive/refs/heads/main.zip
+    unzip main.zip
+    cd sliderule-main/targets/binding-python
     make config-conda
     make
     make install INSTALL_DIR=/opt/conda/lib/python3.11/lib-dynload
